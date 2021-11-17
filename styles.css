@@ -1,0 +1,93 @@
+body{
+    background-image: url('/images/Design.png');
+    background-color: #191B28;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #8FD23C;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #dcdbe1;
+}
+
+.container {
+    padding: 10px;
+    border-radius: 1em;
+    height: auto;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 50px, rgba(0, 0, 0, 0.25) 0px 6px 50px;
+    font-size: medium;
+}
+
+.container h3{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #dcdbe1;
+    padding-left: 10px;
+}
+
+.input{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border: solid black 0.5px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    width: max-content;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px, rgba(0, 0, 0, 0.25) 0px 6px 6px;
+}
+
+.display {
+    padding: 10px;
+    border-radius: 1em;
+    height: auto;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px, rgba(0, 0, 0, 0.25) 0px 6px 6px;
+    font-size: medium;
+}
+
+.display-box {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px, rgba(0, 0, 0, 0.25) 0px 6px 6px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8FD23C;
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+    border: solid black 0.5px;
+    width: max-content;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px, rgba(0, 0, 0, 0.25) 0px 6px 6px;
+}
+
+.button:active {
+    background: #e5e5e5;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
